@@ -12,4 +12,4 @@ Parts list:
 * 3d printed middle layer https://www.thingiverse.com/thing:3706381
 
 Here it is in action:
-![BDN9 in action](/images/bdn9-in-action.gif)
+![_config.yml]({{ site.baseurl }}/images/bdn9-in-action.gif)
