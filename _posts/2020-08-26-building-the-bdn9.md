@@ -7,16 +7,18 @@ A fun little macropad from keebio
 
 ![_config.yml]({{ site.baseurl }}/images/bdn9.jpg)
 
-Parts list:
+Hardware
+----
 
 * this [kit](https://keeb.io/products/bdn9-3x3-9-key-macropad-rotary-encoder-support) from keeb.io 
-* a 3d printed [middle layer](https://www.thingiverse.com/thing:3706381)
+* this 3d printed [middle layer](https://www.thingiverse.com/thing:3706381)
+* a soldering iron and solder
 
 Software
 ----
 The BDN9 uses an Ardrino Pro Micro under-the-covers and therefore works with [QMK Firmware](https://qmk.fm/).  Using this [keymap.c](https://github.com/qmk/qmk_firmware/blob/master/keyboards/keebio/bdn9/keymaps/default/keymap.c) as a guide, I decided I wanted to make the rotary encoder scroll through my favorite Slack and Discord emojis.
 
-The small piece of logic here is calculating and remembering the length of the emoji so that you can tell the keyboard to backspace that amount of times. Also when you turn the encoder left when on the first emoji in the array (or right on the last), we want to jump to the other side of the array for a circular experience.
+> The small piece of logic here is calculating and remembering the length of the emoji so that you can tell the keyboard to backspace that amount of times. Also when you turn the encoder left when on the first emoji in the array (or right on the last), we want to jump to the other side of the array for a circular experience.
 
 ```
 int16_t emoji_index = 0;      
@@ -55,7 +57,7 @@ void encoder_update_user(uint8_t index, bool clockwise) {
 
 	    // calc the length of the current emoji
 	    backspaces = 0;
-  	    for (i = 0; i < 40; i++) {
+  	    for (i = 0; i < 20; i++) {
 	        if (emojis[emoji_index][i] == '\0') {
 	            break;
 	        }
@@ -80,7 +82,7 @@ void encoder_update_user(uint8_t index, bool clockwise) {
 
 	    // calc the lenght of the current emoji
 	    backspaces = 0;
-  	    for (i = 0; i < 40; i++) {
+  	    for (i = 0; i < 20; i++) {
 	        if (emojis[emoji_index][i] == '\0') {
 	            break;
 	        }
@@ -109,6 +111,15 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
 
 ```
+
+Now to get this code onto the BDN9, the first step is to compile the firmware:
+
+    qmk compile -kb keebio/bdn9 -km thomas
+    
+Then flash it (this will prompt you to press the reset button on the BDN9):
+
+    qmk flash -kb keebio/bdn9 -km thomas
+    
 
 Here it is in action:
 
