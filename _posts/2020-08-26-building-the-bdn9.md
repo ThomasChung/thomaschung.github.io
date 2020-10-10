@@ -133,4 +133,6 @@ Then flash it (this will prompt you to press the reset button on the BDN9):
 
 Here it is in action:
 
-![_config.yml]({{ site.baseurl }}/images/bdn9-in-action.gif)
+![](/images/bdn9-in-action.gif)
+
+
