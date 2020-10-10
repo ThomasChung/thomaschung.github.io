@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building the BDN9
-categories: [programming, keyboards]
+categories: [programming, keyboards, 3dprinting]
 ---
 
 A fun little macropad from keebio 
