@@ -3,7 +3,10 @@ layout: post
 title: Building the BDN9
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+A fun little macropad from keebio 
 
 ![_config.yml]({{ site.baseurl }}/images/bdn9.jpg)
 
+Part list:
+* the kit from keeb.io https://keeb.io/products/bdn9-3x3-9-key-macropad-rotary-encoder-support
+* 3d printed middle layer https://www.thingiverse.com/thing:3706381
