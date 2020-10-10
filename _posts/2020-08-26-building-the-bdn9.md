@@ -21,7 +21,7 @@ The BDN9 uses an Ardrino Pro Micro under-the-covers and therefore works with [QM
 
 > The small piece of logic here is calculating and remembering the length of the emoji so that you can tell the keyboard to backspace that amount of times. Also when you turn the encoder left when on the first emoji in the array (or right on the last), we want to jump to the other side of the array for a circular experience.
 
-```
+```c
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         SELECT_EMOJI, XXXXXXX, XXXXXXX,
