@@ -15,7 +15,7 @@ Soldered the diodes onto the PCB.  Not too bad.
 
 ![](/images/redox-soldering.jpg)
 
-I'm using Gateron yellow switches here.  My first time using a linear switch.  Ordered from [kbdfans](https://kbdfans.com) for super cheap, only $14 for 70.  Shipping kills, though.  Lubing with a mix of 60/40 mix of Superlube grease and oil.  Using a 3d printed switch opener (I found this [one](https://www.thingiverse.com/thing:2775085) works the best) and a 3d printed a lubing station.  The corner of that print lifted off the build plate a little.  
+I'm using Gateron yellow switches here.  My first time using a linear switch.  Ordered from [kbdfans.com](https://kbdfans.com) for super cheap, only $14 for 70.  Shipping kills the deal, though.  Lubed with a 60/40 mix of Superlube grease and oil.  used a 3d printed switch opener (I found this [one](https://www.thingiverse.com/thing:2775085) works the best) and a 3d printed a lubing station.  Yes, the corner of that print lifted off the build plate a little but that didn't affect anything.
 
 ![](/images/redox-lubing.jpg)
 
