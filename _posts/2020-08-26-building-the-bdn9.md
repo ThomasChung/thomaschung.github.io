@@ -7,6 +7,9 @@ A fun little macropad from keebio
 
 ![_config.yml]({{ site.baseurl }}/images/bdn9.jpg)
 
-Part list:
+Parts list:
 * the kit from keeb.io https://keeb.io/products/bdn9-3x3-9-key-macropad-rotary-encoder-support
 * 3d printed middle layer https://www.thingiverse.com/thing:3706381
+
+Here it is in action:
+![BDN9 in action](/images/bdn9-in-action.gif)
