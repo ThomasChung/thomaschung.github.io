@@ -4,7 +4,7 @@ title: Building a Redox
 categories: [keyboards, 3dprinting]
 ---
 
-The first step was to 3d printing a case.  I tried a few but ended up going with [this](https://www.thingiverse.com/thing:2886662), the most popular design on Thingiverse.  I really wanted [this other one](https://www.thingiverse.com/thing:3825752) to work, but the 3d printed top plate for that guy flexed a little too much for my liking. The one I went with is think and heavy (printed at 50% infill).
+The first step was to 3d print a case.  I tested a few and ended up going with [this](https://www.thingiverse.com/thing:2886662), the most popular design on Thingiverse.  I really wanted [this other one](https://www.thingiverse.com/thing:3825752) to work because I think it looked better, but the 3d printed top plate for that guy flexed a little too much for my liking. The one I went with is think and heavy (printed at 50% infill).
 
 ![](/images/redox-case.jpg)
 
@@ -24,10 +24,10 @@ Here it is, in it's final form, with cheap DSA keycaps from Aliexpress and some 
 
 ![](/images/redox-final.jpg)
 
-As far as software goes, similar to the [BDN9](/building-the-bdn9) this is also powered by QMK firmware. You need to flash both sides and becauase of that, you can actually use each side independently. Here is the [code](https://github.com/ThomasChung/qmk_firmware/tree/master/keyboards/redox/keymaps/thomas) for my layout.
+As far as software goes, similar to the [BDN9](/building-the-bdn9) this is also powered by QMK firmware. You need to flash both sides and because of that, you can actually use each side independently. Here is the [code](https://github.com/ThomasChung/qmk_firmware/tree/master/keyboards/redox/keymaps/thomas) for my layout.
 
 Some additional thoughts:
 
 * A wristrest would be nice
 * Gateron yellow is a great switch
-* It is near impossible to source 1.25u keycaps with legends that match my layout.  I don't even know of a 1.25u  `\` exists.
+* I cannot source 1.25u keycaps with legends that match my layout.  At this point, I don't even know of a 1.25u  `\` exists, for example.
