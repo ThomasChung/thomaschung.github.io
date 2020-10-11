@@ -2,7 +2,7 @@
 layout: post
 title: My ErgoDox layout
 categories: [keyboards]
--
+---
 
 It took me a while to get my OG EgroDox exactly the way I like, but here it is:
 
