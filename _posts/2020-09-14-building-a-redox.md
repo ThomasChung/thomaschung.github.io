@@ -25,3 +25,9 @@ Here it is, in it's final form, with cheap DSA keycaps from Aliexpress and some 
 ![](/images/redox-final.jpg)
 
 As far as software goes, similar to the [BDN9](/building-the-bdn9) this is also powered by QMK firmware. You need to flash both sides and becauase of that, you can actually use each side independently. Here is the [code](https://github.com/ThomasChung/qmk_firmware/tree/master/keyboards/redox/keymaps/thomas) for my layout.
+
+Some additional thoughts:
+
+* A wristrest would be nice
+* Gateron yellow is a great switch
+* It is near impossible to source 1.25u keycaps with legends that match my layout.  I don't even know of a 1.25u  `\` exists.
