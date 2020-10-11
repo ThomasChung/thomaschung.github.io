@@ -122,6 +122,8 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 ```
 
+Here is the [code](https://github.com/ThomasChung/qmk_firmware/tree/master/keyboards/keebio/bdn9/keymaps/thomas) for full source.
+
 Now to get this code onto the BDN9, the first step is to compile the firmware:
 
     qmk compile -kb keebio/bdn9 -km thomas
