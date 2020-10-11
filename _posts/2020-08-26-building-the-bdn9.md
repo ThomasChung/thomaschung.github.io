@@ -4,14 +4,15 @@ title: Building the BDN9
 categories: [programming, keyboards, 3dprinting]
 ---
 
-A fun little macropad from keebio 
+I hadn't soldered for a while and wasn't really up-to-speed with all the new swiches so I decided to build this little macropad from keebio.  Total cost for the project was around $20. 
 
 ![_config.yml]({{ site.baseurl }}/images/bdn9.jpg)
 
 Hardware
 ----
 
-* this [kit](https://keeb.io/products/bdn9-3x3-9-key-macropad-rotary-encoder-support) from keeb.io 
+* this [kit](https://keeb.io/products/bdn9-3x3-9-key-macropad-rotary-encoder-support) from keeb.io
+* 7 keycaps and switches (I used the [NovelKeys](https://novelkeys.xyz/) cream switches, just becuase they were the only ones in stock at the time)
 * this 3d printed [middle layer](https://www.thingiverse.com/thing:3706381)
 * a soldering iron and solder
 
