@@ -17,7 +17,7 @@ Hardware
 
 Software
 ----
-The BDN9 uses an Arduino Pro Micro under-the-covers and therefore works with [QMK Firmware](https://qmk.fm/).  Using this [keymap.c](https://github.com/qmk/qmk_firmware/blob/master/keyboards/keebio/bdn9/keymaps/default/keymap.c) as a guide, I decided I wanted to make the rotary encoder scroll through my favorite Slack and Discord emojis.
+The BDN9 uses an Arduino Pro Micro under-the-covers and therefore works with [QMK Firmware](https://qmk.fm/).  Using this [keymap.c](https://github.com/qmk/qmk_firmware/blob/master/keyboards/keebio/bdn9/keymaps/default/keymap.c) as a guide, I decided I wanted to make the rotary encoder scroll through my most used Slack and Discord emojis.
 
 > The small piece of logic here is calculating and remembering the length of the emoji so that you can tell the keyboard to backspace that amount of times. Also when you turn the encoder left when on the first emoji in the array (or right on the last), we want to jump to the other side of the array for a circular experience.
 
