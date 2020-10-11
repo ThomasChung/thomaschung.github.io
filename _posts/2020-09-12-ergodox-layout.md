@@ -4,7 +4,7 @@ title: My ErgoDox layout
 categories: [keyboards]
 ---
 
-It took me a while to get the my OG EgroDox exactly the way I like, but here it is:
+It took me a while to get my OG EgroDox exactly the way I like, but here it is:
 
 ![](/images/ergodox-layout.png)
 
