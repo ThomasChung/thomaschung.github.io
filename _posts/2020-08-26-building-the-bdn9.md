@@ -4,7 +4,7 @@ title: Building the BDN9
 categories: [programming, keyboards, 3dprinting]
 ---
 
-I hadn't soldered for a while and wasn't really up-to-speed with all the new swiches so I decided to build this little macropad from keebio.  Total cost for the project was around $20. 
+I hadn't soldered for a while and wasn't really up-to-date on all the new mechanical switches these days so I decided to build this little macropad from keebio.  Total cost for the project was around $20. 
 
 ![_config.yml]({{ site.baseurl }}/images/bdn9.jpg)
 
