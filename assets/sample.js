@@ -41,12 +41,12 @@ function alertCookie(name) {
 function httpGet(pageType) {
     ccid = getCookie('ccid');
     if (ccid == null) {
-        setCookie('ccid', makeId(4), 7);
+        setCookie('ccid', makeId(6), 7);
         ccid = getCookie('ccid');
     }
-
-    var url = 'https://webhook.site/d2a7962c-df54-48b3-b12b-62eef393924b?ccid=' + ccid +'&type=' + pageType;
-        var xmlHttpReq = new XMLHttpRequest();
+	var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    var url = 'https://us-central1-subtle-poet-202105.cloudfunctions.net/pixels?ccid=' + ccid +'&type=' + pageType + '&tz=' + tz;
+    var xmlHttpReq = new XMLHttpRequest();
     xmlHttpReq.open("GET", url, false);
         xmlHttpReq.send(null);
         return xmlHttpReq.responseText;
